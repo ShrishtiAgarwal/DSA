@@ -16,6 +16,7 @@
    - [Dijkastra Implementaton](https://github.com/ShrishtiAgarwal/DSA/blob/master/DSA/Graphs/Dijkastra_Implementaton.cpp)
    - [Strongly Connected Components](https://github.com/ShrishtiAgarwal/DSA/blob/master/DSA/Graphs/Strongly_connected_components.cpp)
    - [Topological Sort](https://github.com/ShrishtiAgarwal/DSA/blob/master/DSA/Graphs/Topological_Sort.cpp)
+   - [Union find](https://github.com/ShrishtiAgarwal/DSA/blob/master/DSA/Graphs/Union_Find.cpp)
    
    
 ## Tree
