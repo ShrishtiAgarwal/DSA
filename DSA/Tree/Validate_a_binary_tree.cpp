@@ -9,6 +9,9 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
+#include <iostream>
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     void inorder(TreeNode* root,vector<int> & v)
