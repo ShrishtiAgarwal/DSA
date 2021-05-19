@@ -1,15 +1,11 @@
+.#include <bits/stdc++.h>
+using namespace std;
 
 
-/*
-Quuestion:
-
-https://practice.geeksforgeeks.org/problems/union-find/1
+ // } Driver Code Ends
 
 
-
-Solution:
-
-*/
+//User function Template for C++
 
 int findroot(int a,int par[])
 {
@@ -61,4 +57,38 @@ bool isConnected(int x,int y, int par[], int rank1[]) {
     else
     return false;
 }
-© 2020 GitHub, Inc.
+
+// { Driver Code Starts.
+
+int main() {
+    int t;
+    cin>>t;
+    while(t--) {
+        int n;
+        cin>>n;
+        
+        int par[n+1];
+        int rank1[n+1];
+
+        for(int i=1; i<=n; i++) {
+            par[i] = i;
+            rank1[i] = 1;
+    }
+    
+    int q;
+    cin>>q;
+    while(q--) {
+        int a,b;
+        char c;
+        cin>>c>>a>>b;
+        if(c=='U')
+        {
+            union_(a,b, par, rank1);
+        }
+        else
+        cout<<isConnected(a,b, par, rank1)<<endl;
+    }
+    }
+    return 0;
+}
+  // } Driver Code Ends
